@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        
+    	<title>Webssette</title>
+    	
+    	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    	
+        <link rel="stylesheet" href="/css/main.css">
+    
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2018.2.516/styles/kendo.common-material.min.css" />
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2018.2.516/styles/kendo.material.min.css" />
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2018.2.516/styles/kendo.material.mobile.min.css" />
+        <script src="https://kendo.cdn.telerik.com/2018.2.516/js/jquery.min.js"></script>
+        <script src="https://kendo.cdn.telerik.com/2018.2.516/js/kendo.all.min.js"></script> 
+        
+        <script>
+        
+        	$(document).ready(function() {
+        
+        		$("#vertical").kendoSplitter({
+        			orientation: "vertical",
+        			panes: [
+        				{ collapsible: false, resizable: false, size: '100px' },
+        				{ collapsible: false},
+        				{ collapsible: false, resizable: false, size: "100px"}
+        			]
+        		});
+        
+        		$("#horizontal").kendoSplitter({
+        			panes: [
+        				{ collapsible: true },
+        				{ collapsible: false },
+        				{ collapsible: true}
+        			]
+        		});
+        	});
+                      
+        </script>
+    
+    </head>
+    
+    <body>
+    
+    	<header>
+    
+    		<div id="logo">
+    
+    			<img src="img\logo.png">
+    			
+    			<h1> Webssette</h1>
+    
+    		</div>
+    
+    		<button> Logar </button>
+    		
+    	</header>
+    
+    	<div class="bloco" id="1">
+    
+            <div id="vertical">
+    
+            	<div id="nomeArtista">
+            	    
+                    <div class="pane-content">
+                        
+                        <h3>Nome do Artista</h3>
+                        
+                        <p>Genero Musical e Album Escolhido</p>
+                        
+                    </div>
+                    
+                </div>
+    
+                <div id="album">
+    
+                    <div id="horizontal" style="height: 100%; width: 100%;">
+                        
+                        <div id="infoAlbum">
+                            
+                            <div class="pane-content">
+                                
+                                <h3>Album</h3>
+                                
+                                <p>Informações</p>
+                                
+                            </div>
+                            
+                        </div>
+    
+                        <div id="faixasAlbum">
+                            
+                            <div class="pane-content">
+                                
+                                <h3>Faixas</h3>
+                                
+                                <p>Faixas do Album</p>
+                                
+                            </div>
+                            
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div id="musicPlayer">
+                    
+                    <div class="pane-content">
+                        
+                        <h3>Player do Spotify</h3>
+                        
+                        <p>Musica Rodando</p>
+                        
+                    </div>
+                    
+                </div>
+    
+            </div>
+    
+    	</div>
+    
+    	<footer>
+    		
+    	</footer>
+    
+    </body>
+
+</html>
