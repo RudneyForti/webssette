@@ -1,0 +1,17 @@
+	Name 			Webssette
+	Vinculado a conta Rudney Forti no Spotify 
+	Client Id 		54057edffb4341948353ba45b08a7725
+	Client Secret	f94e5f1ed07e4f4686349df71c1a2ff8
+	
+	Artistas a serem inseridos
+
+	Judas Priest 	- FIREPOWER 						- Dukaraio
+	Emarosa			- Emarosa							- NandooGouveia
+	Arctic Monkeys	- Tranquility Base Hotel & Cassino 	- RFortiS
+	Molejão			- Alô Comunidade (Ao Vivo)			- PLUS
+
+	Possibilidades com a API do SPOTIFY e JS
+
+	https://www.npmjs.com/package/spotify-web-api-js
+	
+	Conheça um artista, Webssette é uma aplicação web criada para promover um álbum de 4 artistas escolhidos pelos desenvolvedores. Faça bom proveito.
