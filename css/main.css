@@ -64,27 +64,31 @@
 		background-color: rgba(0, 0, 0, 0.5);
 		border: 3px solid #3e9150;
 	}
+	
+	.home{
+		height: 100vh; 
+		width:100%; 
+		position:relative; 
+		background-color: #101010;
+	}
+		
+	video{
+		position: fixed;
+		right: 0px; 
+		min-width: 100%; 
+		min-height: 100%; 
+		width: auto; 
+		height: auto;
+	}
 
+	.video-mask{
+		height:100vh; 
+		width:100%; 
+		background-color:hsla(0,0%,0%,0.6); 
+		position: fixed; 
+	}
+	
 	.pane-content, body{
 		color: #efefef;
 		padding-right: 4%;
-	}
-
-	.k-splitter{
-		height: 75vh;
-		background-color: rgba( 0, 0, 0, 0.0);
-		border: 0px;
-	}
-
-	.k-splitbar{
-	    border-color: #3e9150;
-        background-color: #3e9150;
-	}
-
-	.k-splitbar .k-state-focused{
-		border-color: black;
-        background-color: black;
-	}
-	.k-icon{
-		color: red;
 	}
