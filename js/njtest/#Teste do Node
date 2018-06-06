@@ -1,0 +1,10 @@
+    Node Testado na porta 8081
+        
+        Comando linux para testar
+            cd/jd/njtest
+            node server.js
+        
+        Localhost do c9 
+            https://webssette-rfortis.c9users.io:8081/
+     
+        Para sair basta dar CTRL+C no terminal
