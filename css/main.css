@@ -114,3 +114,7 @@
 	button{
 		height: 30px;
 	}
+	
+	#blocoPerfil > img{
+		width: 100%;
+	}
