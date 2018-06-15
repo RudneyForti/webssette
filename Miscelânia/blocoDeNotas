@@ -17,6 +17,9 @@
 	
 	Passo a passo seguido para inclusão da api do spotify
 		https://developer.spotify.com/documentation/web-api/quick-start/
+		
+	Instalação da framework por terminal
+		https://docs.telerik.com/kendo-ui/intro/installation/npm
 	
 	Descrição:
 	Conheça um artista, Webssette é uma aplicação web criada para promover um álbum de 4 artistas escolhidos pelos desenvolvedores. Faça bom proveito.
