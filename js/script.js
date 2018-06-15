@@ -1,3 +1,4 @@
+//<<<<<<< HEAD
 function home(){
 	$("#login").kendoButton();
 };
@@ -13,3 +14,5 @@ function perfil(){
 };
 home();
 perfil();
+//=======
+//>>>>>>> a1eb4c6f0e8fefe093a1a55a4537f4e689059d30

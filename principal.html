@@ -16,10 +16,11 @@
         <link rel="stylesheet" href="css\slider.css">
         
         <script src="js\slider.js"> </script>
-    
+        
+        
     </head>
     
-    <body>
+    <body onload="document.getElementById('dot1').click();">
     
     	<header>
            
@@ -36,10 +37,18 @@
             </a>
         
             <div class="div_btn">
-        
-                <button href="principal.html" id="btn_1"> Principal </button>
-    
-                <button href="perfil.html" id="btn_2"> Perfil </button>
+            
+                <a href="principal.html">
+                    
+                    <button id="btn_1"> Principal </button>
+                    
+                </a>
+                
+                <a href="perfil.html">
+                    
+                    <button id="btn_2"> Perfil </button>
+                    
+                </a>
         
             </div>
     		
@@ -53,7 +62,7 @@
                 
                 <div class="bloco" id="1">
                     
-                    <span> conteudo aqui </span>
+                    <iframe src="https://open.spotify.com/embed/album/1jeMiSeSnNS0Oys375qegp" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     
                 </div>
 
@@ -65,7 +74,7 @@
                 
                 <div class="bloco" id="2">
                     
-                    <span> conteudo aqui </span>
+                    <iframe src="https://open.spotify.com/embed/album/1OlewCHNhDBcQBqzXhNws5" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     
                 </div>
                 
@@ -77,7 +86,7 @@
                 
                 <div class="bloco" id="3">
                     
-                    <span> conteudo aqui </span>
+                    <iframe src="https://open.spotify.com/embed/album/7p3G0OCxtlWyJcPE1FxnyB" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     
                 </div>
                 
@@ -89,7 +98,7 @@
                 
                 <div class="bloco" id="4">
                     
-                    <span> conteudo aqui </span>
+                    <iframe src="https://open.spotify.com/embed/album/5c5Ul9N6HkcLF18mAWq8cl" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     
                 </div>
                 
@@ -105,7 +114,7 @@
 
         	<div class="dotGroup">
 
-                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" id="dot1" onclick="currentSlide(1)"></span> 
 
                 <span class="dot" onclick="currentSlide(2)"></span> 
 
