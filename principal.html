@@ -16,10 +16,11 @@
         <link rel="stylesheet" href="css\slider.css">
         
         <script src="js\slider.js"> </script>
-    
+        
+        
     </head>
     
-    <body>
+    <body onload="document.getElementById('dot1').click();">
     
     	<header>
            
@@ -105,7 +106,7 @@
 
         	<div class="dotGroup">
 
-                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" id="dot1" onclick="currentSlide(1)"></span> 
 
                 <span class="dot" onclick="currentSlide(2)"></span> 
 
