@@ -4,7 +4,12 @@ function home(){
 function perfil(){
     $("#btn_1").kendoButton();
     $("#btn_2").kendoButton();
-    //$("#1").kendoSplitter();
+    $("#1").kendoSplitter({
+        orientation: "vertical",
+        panes: [
+            {collapsible: false}
+            ]
+    });
 };
 home();
 perfil();
